@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2026-03-11T02:12:58.196</Modified>
+      <Modified>2026-03-11T13:22:41.724</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2026-03-11T02:12:58.108</Modified>
+      <Modified>2026-03-11T13:22:41.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Practica1.runtimeconfig.json">
       <PackagePath>Practica1.runtimeconfig.json</PackagePath>
-      <Modified>2026-03-10T21:15:58.139</Modified>
+      <Modified>2026-03-11T13:06:13.941</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Practica1.dll">
       <PackagePath>Practica1.dll</PackagePath>
-      <Modified>2026-03-11T02:12:57.875</Modified>
+      <Modified>2026-03-11T13:22:41.208</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Practica1.exe</PackagePath>
-      <Modified>2026-03-11T02:12:57.881</Modified>
+      <Modified>2026-03-11T13:22:41.208</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -267,43 +267,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2026-03-10T21:15:56.819</Modified>
+      <Modified>2026-03-11T13:04:21.943</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2026-03-10T21:15:56.827</Modified>
+      <Modified>2026-03-11T13:04:21.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2026-03-10T21:15:56.839</Modified>
+      <Modified>2026-03-11T13:04:21.946</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2026-03-10T21:15:56.860</Modified>
+      <Modified>2026-03-11T13:04:21.947</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2026-03-10T21:15:56.922</Modified>
+      <Modified>2026-03-11T13:04:58.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_o.scale-100.png">
       <PackagePath>img_o.scale-100.png</PackagePath>
-      <Modified>2026-03-10T20:57:49.180</Modified>
+      <Modified>2026-03-11T13:04:21.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_x.scale-100.png">
       <PackagePath>img_x.scale-100.png</PackagePath>
-      <Modified>2026-03-10T21:12:04.060</Modified>
+      <Modified>2026-03-11T13:04:21.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\title_logo_1.scale-100.png">
       <PackagePath>title_logo_1.scale-100.png</PackagePath>
-      <Modified>2026-03-10T21:13:28.166</Modified>
+      <Modified>2026-03-11T13:04:21.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\title_logo_2.scale-100.png">
       <PackagePath>title_logo_2.scale-100.png</PackagePath>
-      <Modified>2026-03-10T21:14:15.369</Modified>
+      <Modified>2026-03-11T13:04:21.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Practica1.deps.json">
       <PackagePath>Practica1.deps.json</PackagePath>
-      <Modified>2026-03-10T21:15:58.047</Modified>
+      <Modified>2026-03-11T13:06:13.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Kal\u00FAfugo\\Desktop\\UBU\\4\u00BA\\DAM\\Practica1\\Practica1dhd1003\\Practica1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB51BBB3-C5ED-4DAD-AFAC-AD7085BABD5B}|Practica1\\Practica1.csproj|c:\\users\\kal\u00FAfugo\\desktop\\ubu\\4\u00BA\\dam\\practica1\\practica1dhd1003\\practica1\\practica1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB51BBB3-C5ED-4DAD-AFAC-AD7085BABD5B}|Practica1\\Practica1.csproj|solutionrelative:practica1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB51BBB3-C5ED-4DAD-AFAC-AD7085BABD5B}|Practica1\\Practica1.csproj|c:\\users\\kal\u00FAfugo\\desktop\\ubu\\4\u00BA\\dam\\practica1\\practica1dhd1003\\practica1\\practica1\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BB51BBB3-C5ED-4DAD-AFAC-AD7085BABD5B}|Practica1\\Practica1.csproj|solutionrelative:practica1\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB51BBB3-C5ED-4DAD-AFAC-AD7085BABD5B}|Practica1\\Practica1.csproj|c:\\users\\kal\u00FAfugo\\desktop\\ubu\\4\u00BA\\dam\\practica1\\practica1dhd1003\\practica1\\practica1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB51BBB3-C5ED-4DAD-AFAC-AD7085BABD5B}|Practica1\\Practica1.csproj|solutionrelative:practica1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB51BBB3-C5ED-4DAD-AFAC-AD7085BABD5B}|Practica1\\Practica1.csproj|c:\\users\\kal\u00FAfugo\\desktop\\ubu\\4\u00BA\\dam\\practica1\\practica1dhd1003\\practica1\\practica1\\tictactoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,29 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Kal\u00FAfugo\\Desktop\\UBU\\4\u00BA\\DAM\\Practica1\\Practica1dhd1003\\Practica1\\Practica1\\MainPage.xaml",
               "RelativeDocumentMoniker": "Practica1\\MainPage.xaml",
               "ToolTip": "C:\\Users\\Kal\u00FAfugo\\Desktop\\UBU\\4\u00BA\\DAM\\Practica1\\Practica1dhd1003\\Practica1\\Practica1\\MainPage.xaml",
               "RelativeToolTip": "Practica1\\MainPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAkAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAQwEoAAAB2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-26T17:52:58.235Z"
+              "WhenOpened": "2026-02-26T17:52:58.235Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Kal\u00FAfugo\\Desktop\\UBU\\4\u00BA\\DAM\\Practica1\\Practica1dhd1003\\Practica1\\Practica1\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Practica1\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\Kal\u00FAfugo\\Desktop\\UBU\\4\u00BA\\DAM\\Practica1\\Practica1dhd1003\\Practica1\\Practica1\\MainPage.xaml.cs",
               "RelativeToolTip": "Practica1\\MainPage.xaml.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAuwHEAAAARAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAhwDAAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T00:39:35.539Z",
               "EditorCaption": ""
@@ -59,7 +60,8 @@
               "RelativeToolTip": "Practica1\\TicTacToe.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T22:06:24.839Z"
+              "WhenOpened": "2026-03-10T22:06:24.839Z",
+              "EditorCaption": ""
             }
           ]
         }

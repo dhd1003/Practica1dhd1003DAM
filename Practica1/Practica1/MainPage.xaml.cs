@@ -17,6 +17,10 @@ namespace Practica1
             ActualizarTextoTurno();
         }
 
+        /// <summary>
+        /// Determina aleatoriamente quién inicia la partida y actualiza la etiqueta 
+        /// de texto con el nombre del jugador activo.
+        /// </summary>
         private void ActualizarTextoTurno()
         {
             Random rnd = new Random();
@@ -27,6 +31,14 @@ namespace Practica1
             textoTurno.Text = jugadorQueEmpezo;
         }
 
+
+
+        /// <summary>
+        /// Manejador de evento que se dispara al pulsar una casilla del tablero. 
+        /// Procesa la jugada, actualiza la imagen del botón y verifica si hay un ganador.
+        /// </summary>
+        /// <param name="sender">El objeto que disparó el evento (ImageButton).</param>
+        /// <param name="e">Argumentos del evento.</param>
         private async void OnCellClicked(object sender, EventArgs e)
         {
             var button = (ImageButton)sender;
@@ -58,6 +70,14 @@ namespace Practica1
             }
         }
 
+
+
+        /// <summary>
+        /// Finaliza la ronda actual, identifica al ganador, actualiza el contador de victorias 
+        /// y muestra una alerta con el resultado antes de reiniciar el tablero.
+        /// </summary>
+        /// <param name="ganador">Entero que representa el resultado: 0 para empate, 1 para el primer jugador, 2 para el segundo.</param>
+        /// <returns>Una tarea asíncrona.</returns>
         private async Task FinalizarPartida(int ganador)
         {
             string nombreGanador = "";
@@ -97,6 +117,12 @@ namespace Practica1
             ReiniciarTableroVisual();
         }
 
+
+
+        /// <summary>
+        /// Restablece el estado lógico del juego y limpia la interfaz gráfica (imágenes y habilitación de botones) 
+        /// para comenzar una nueva partida.
+        /// </summary>
         private void ReiniciarTableroVisual()
         {
             juego.Reiniciar();
