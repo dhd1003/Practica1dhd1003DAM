@@ -1,1 +1,1 @@
-C:\Users\UBU\Desktop\Practica1\Practica1\Practica1.csproj;x64
+C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\Practica1.csproj;x64
