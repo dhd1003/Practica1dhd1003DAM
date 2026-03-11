@@ -48,27 +48,15 @@ public class TicTacToe
 /// <returns>Devuelve el jugador ganador 1 o 2 y 0 si no hay ganador</returns>
     public int Ganador()
     {
-        if (turno % 2 == 0)
-        {
-            if (PartidaFinalizada(2))
-            {
-                return 1;
-            }
-            else
-            {
-                return 0;
-            }
-        }
-        else
-        {
+       
             if (PartidaFinalizada(1))
-            {
+                return 1;
+
+            if (PartidaFinalizada(2))
                 return 2;
-            }else
-            {
-                return 0;
-            }
-        }
+
+            return 0;
+        
     }
 /// <summary>
 /// Nos devuelve si hay un ganador 

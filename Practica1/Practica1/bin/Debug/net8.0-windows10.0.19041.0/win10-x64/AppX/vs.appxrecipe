@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2026-03-10T21:51:11.397</Modified>
+      <Modified>2026-03-11T02:12:58.196</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2026-03-10T21:51:11.314</Modified>
+      <Modified>2026-03-11T02:12:58.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Practica1.runtimeconfig.json">
       <PackagePath>Practica1.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Practica1.dll">
       <PackagePath>Practica1.dll</PackagePath>
-      <Modified>2026-03-10T21:51:11.066</Modified>
+      <Modified>2026-03-11T02:12:57.875</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Practica1.exe</PackagePath>
-      <Modified>2026-03-10T21:51:11.072</Modified>
+      <Modified>2026-03-11T02:12:57.881</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kalúfugo\Desktop\UBU\4º\DAM\Practica1\Practica1dhd1003\Practica1\Practica1\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

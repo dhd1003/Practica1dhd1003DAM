@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Practica1.MainPage"
-             BackgroundColor="#A4A1A7">
+             BackgroundColor="Black">
                 
 
     <ScrollView>
@@ -10,179 +10,84 @@
 
 
         <VerticalStackLayout
-            WidthRequest="900"
-            HeightRequest="700"
+            
             HorizontalOptions="Center"
-            VerticalOptions="Center">
+            VerticalOptions="Center"
+           >
 
             <Image
                     Margin="0,20,0,0"
-                    Source="title_logo_1.png"
+                    Source="title_logo_2.png"
                     HeightRequest="75"
                     Aspect="AspectFit"
-                    />
+             />
 
-
-
-
-            <Grid RowSpacing="2"
-                  ColumnSpacing="2"
-                  Margin="50"
-                  HorizontalOptions="Center"
-                  VerticalOptions="Center"
-                  >
-
-
-
-
+            <!-- Primer grid - cabecera -->
+            <Grid RowSpacing="5" ColumnSpacing="5" Margin="0,10,0,5" HorizontalOptions="Center" VerticalOptions="Center">
 
                 <Grid.RowDefinitions>
-
-                    <RowDefinition Height="50" />
+                    <RowDefinition Height="40" />
                     <RowDefinition Height="75" />
-                    <RowDefinition Height="200" />
-                    <RowDefinition Height="200" />
-                    <RowDefinition Height="200" />
-
-
                 </Grid.RowDefinitions>
 
                 <Grid.ColumnDefinitions>
-
-                    <ColumnDefinition Width="200" />
-                    <ColumnDefinition Width="200" />
-                    <ColumnDefinition Width="200" />
-
+                    <ColumnDefinition Width="120" />
+                    <ColumnDefinition Width="120" />
+                    <ColumnDefinition Width="120" />
                 </Grid.ColumnDefinitions>
-                <!--r0, c0-->
-                <BoxView Color="#C4A1A7" />
-                <Label
-                    Text="Turno"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                    />
 
-                <!--r0, c1-->
-                <BoxView 
-                    Grid.Column="1"
-                    Color="#C4A1A7" 
-                    />
-                <Label x:Name="Label01"
-                    Text="Victorias Leon"
-                    Grid.Column="1"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                    />
+                <!-- Fila 0 -->
+                <BoxView Color="#292929" CornerRadius="15,0,0,0" />
+                <Label Text="Turno" HorizontalOptions="Center" VerticalOptions="Center" />
 
-                <!--r0, c2-->
-                <BoxView 
-                    Grid.Column="2"
-                    Color="#C4A1A7"
-                
-                    />
-                <Label x:Name="Label02"
-                    Text="Victorias Grace"
-                    Grid.Column="2"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                    />
+                <BoxView Grid.Column="1" Color="#292929" />
+                <Label x:Name="Label01" Text="Victorias Leon" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"  />
 
+                <BoxView Grid.Column="2" Color="#292929" CornerRadius="0,15,0,0"/>
+                <Label x:Name="Label02" Text="Victorias Grace" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" />
 
-
-
-                <!--r1, c0-->
-                <BoxView 
-                    Grid.Row="1"
-                    Color="#C4A1A7" 
-                    />
-
-                <!--r1, c1-->
-                <BoxView 
-                    Grid.Row="1"
-                    Grid.Column="1"
-                    Color="#C4A1A7" 
-                    />
-
-                <!--r1, c2-->
-                <BoxView 
-                    Grid.Row="1"
-                    Grid.Column="2"
-                    Color="#C4A1A7" 
-                    />
-
-
-
-
-
-                <!--r2, c0-->
-                <BoxView 
-                    Grid.Row="2"
-                    Grid.Column="0"
-                    Color="#630A1C" 
-                    CornerRadius="25"/>
-
-                <!--r2, c1-->
-                <BoxView 
-                    Grid.Row="2"
-                    Grid.Column="1"
-                    Color="#630A1C" 
-                    CornerRadius="25"/>
-
-                <!--r2, c2-->
-                <BoxView 
-                    Grid.Row="2"
-                    Grid.Column="2"
-                    Color="#630A1C" 
-                    CornerRadius="25"/>
-
-                <!--r3, c0-->
-                <BoxView 
-                    Grid.Row="3"
-                    Grid.Column="0"
-                    Color="#630A1C" 
-                    CornerRadius="25"/>
-
-                <!--r3, c1-->
-                <BoxView 
-                    Grid.Row="3"
-                    Grid.Column="1"
-                    Color="#630A1C" 
-                    CornerRadius="25"/>
-
-                <!--r3, c2-->
-                <BoxView 
-                    Grid.Row="3"
-                    Grid.Column="2"
-                    Color="#630A1C" 
-                    CornerRadius="25"/>
-
-
-                <!--r4, c0-->
-                <BoxView 
-                    Grid.Row="4"
-                    Grid.Column="0"
-                    Color="#630A1C" 
-                    CornerRadius="25"/>
-
-                <!--r4, c1-->
-                <BoxView 
-                    Grid.Row="4"
-                    Grid.Column="1"
-                    Color="#630A1C" 
-                    CornerRadius="25"/>
-
-                <!--r4, c2-->
-                <BoxView 
-                    Grid.Row="4"
-                    Grid.Column="2"
-                    Color="#630A1C" 
-                    CornerRadius="25"/>
-
-
-
-
+                <!-- Fila 1 -->
+                <BoxView Grid.Row="1" Color="#292929" CornerRadius="0,0,15,0" />
+                <Label x:Name="textoTurno" Text="" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center" />
+                <BoxView Grid.Row="1" Grid.Column="1" Color="#292929" />
+                <Label x:Name="textoVictoriaLeon" Text="0" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" />
+                <BoxView Grid.Row="1" Grid.Column="2" Color="#292929" CornerRadius="0,0,0,15" />
+                <Label x:Name="textoVictoriaGrace" Text="0" Grid.Row="1" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" />
 
             </Grid>
+
+            <!-- Segundo grid - tablero 3x3 con ImageButton -->
+            <Grid x:Name="TableroGrid" RowSpacing="5" ColumnSpacing="5" Margin="5" HorizontalOptions="Center" VerticalOptions="Center">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="120" />
+                    <RowDefinition Height="120" />
+                    <RowDefinition Height="120" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="120" />
+                    <ColumnDefinition Width="120" />
+                    <ColumnDefinition Width="120" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Fila 0 -->
+                <ImageButton Grid.Row="0" Grid.Column="0" BackgroundColor="#630A1C" CornerRadius="25" Clicked="OnCellClicked" CommandParameter="00" Aspect="AspectFit" Opacity="1"/>
+                <ImageButton Grid.Row="0" Grid.Column="1" BackgroundColor="#630A1C" CornerRadius="25" Clicked="OnCellClicked" CommandParameter="01" Aspect="AspectFit" Opacity="1"/>
+                <ImageButton Grid.Row="0" Grid.Column="2" BackgroundColor="#630A1C" CornerRadius="25" Clicked="OnCellClicked" CommandParameter="02" Aspect="AspectFit" Opacity="1"/>
+
+                <!-- Fila 1 -->
+                <ImageButton Grid.Row="1" Grid.Column="0" BackgroundColor="#630A1C" CornerRadius="25" Clicked="OnCellClicked" CommandParameter="10" Aspect="AspectFit" Opacity="1"/>
+                <ImageButton Grid.Row="1" Grid.Column="1" BackgroundColor="#630A1C" CornerRadius="25" Clicked="OnCellClicked" CommandParameter="11" Aspect="AspectFit" Opacity="1"/>
+                <ImageButton Grid.Row="1" Grid.Column="2" BackgroundColor="#630A1C" CornerRadius="25" Clicked="OnCellClicked" CommandParameter="12" Aspect="AspectFit" Opacity="1"/>
+
+                <!-- Fila 2 -->
+                <ImageButton Grid.Row="2" Grid.Column="0" BackgroundColor="#630A1C" CornerRadius="25" Clicked="OnCellClicked" CommandParameter="20" Aspect="AspectFit" Opacity="1"/>
+                <ImageButton Grid.Row="2" Grid.Column="1" BackgroundColor="#630A1C" CornerRadius="25" Clicked="OnCellClicked" CommandParameter="21" Aspect="AspectFit" Opacity="1"/>
+                <ImageButton Grid.Row="2" Grid.Column="2" BackgroundColor="#630A1C" CornerRadius="25" Clicked="OnCellClicked" CommandParameter="22" Aspect="AspectFit" Opacity="1"/>
+
+            </Grid>
+
         </VerticalStackLayout >
 
     </ScrollView>

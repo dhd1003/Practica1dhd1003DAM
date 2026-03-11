@@ -6,9 +6,9 @@
     xmlns:local="clr-namespace:Practica1"
     Shell.FlyoutBehavior="Disabled"
     Title="Practica1">
-
+   
     <ShellContent
-        Title="Home"
+        Title="Resident Evil Requiem Tic Tac Toe"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
